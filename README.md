@@ -11,6 +11,6 @@ The logic, registration and test routes has been already setup. Every thing is c
 To quickly run make sure you have npm setup properly and do following setups:
 rename example.env to .env
 place your own mongoatlas url and a secret key in .env file
-npm i
-npm run server
+	npm i
+	npm run server
 
