@@ -3,6 +3,8 @@
 require('dotenv').config();
 const express = require('express');
 const passport = require('passport');
+const cors = require('cors');
+
 require('./config/connection');
 // Do all imports above here
 
@@ -11,6 +13,9 @@ const server = express();
 
 //Allowing our app to accept json as request arguments
 server.use(express.json());
+
+//setting cors so api's can be called from front end technologies
+server.use(cors());
 
 //setting up our server to use passport
 server.use(passport.initialize());
