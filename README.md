@@ -9,6 +9,8 @@ The application is also setup to use mongo atlas, bcrypt hashing, passport authe
 The logic, registration and test routes has been already setup. Every thing is commented.
 
 To quickly run make sure you have npm setup properly and do following setups:
+rename example.env to .env
+place your own mongoatlas url and a secret key in .env file
 npm i
 npm run server
 
